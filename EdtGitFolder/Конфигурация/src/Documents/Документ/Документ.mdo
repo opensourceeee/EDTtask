@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89405170-68d1-4ef7-a5e2-1f3840ba07ce">
+  <producedTypes>
+    <objectType typeId="415c9a7b-d5bf-4523-aa6b-85a94bee3fe3" valueTypeId="db7670cb-a0ee-47ea-b723-d859dfe6893b"/>
+    <refType typeId="c5f3b871-85a0-4d89-840b-f42cb729a088" valueTypeId="db76328f-1d90-42de-864a-d9ca07cb7e20"/>
+    <selectionType typeId="d2982f13-eb3f-4ddd-bc6b-747a7b7ae3e8" valueTypeId="61c3f91c-5dd4-405d-add1-bcf9bfd59631"/>
+    <listType typeId="5ca5b232-f8fb-4aa3-acc9-e96bd62902e6" valueTypeId="910d7af7-c971-4bbf-9f4e-4c9fbaebe756"/>
+    <managerType typeId="f7e64310-7872-488d-bcfb-4018af4e9494" valueTypeId="356d4038-d15f-44f1-ae6c-401615342437"/>
+  </producedTypes>
+  <name>Документ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Документ.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Документ.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="787abe49-9a49-4fb9-8122-5d0b24bb2fb6">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="eed8c0a4-efb5-4790-b763-fcc9adbbb28a">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
